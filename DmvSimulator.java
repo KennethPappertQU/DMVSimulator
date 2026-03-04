@@ -21,6 +21,13 @@ public class DmvSimulator {
                 break;
             }
         }
-        System.out.println("Sorry dumb number " + dmvNumber + ", you do not have anything remotely close to the right paperwork. MWAHAHA!");
+
+        int randomNum = (int) (Math.random() * 100);
+        
+        if (randomNum == 50) {
+            System.out.println("You do have the right paper work. You are all set. ");
+        } else {
+            System.out.println("Sorry dumb number " + dmvNumber + ", you do not have anything remotely close to the right paperwork.");
+        }
     }
 }
