@@ -21,6 +21,6 @@ public class DmvSimulator {
                 break;
             }
         }
-        System.out.println("Sorry dumb number " + dmvNumber + ", you do not have anything remotely close to the right paperwork.");
+        System.out.println("Sorry dumb number " + dmvNumber + ", you do not have anything remotely close to the right paperwork. MWAHAHA!");
     }
 }
