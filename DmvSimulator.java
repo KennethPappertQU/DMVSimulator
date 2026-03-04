@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class DmvSimulator {
-    public void main (String [] args) {
+    public static void main (String[] args) {
         Scanner in = new Scanner (System.in);
 
         System.out.println("Welcome to the DMV!");
@@ -21,6 +21,6 @@ public class DmvSimulator {
                 break;
             }
         }
-        System.out.println("Sorry number " + dmvNumber + ", you do not have the right paperwork.");
+        System.out.println("Sorry dumb number " + dmvNumber + ", you do not have anything remotely close to the right paperwork.");
     }
 }
