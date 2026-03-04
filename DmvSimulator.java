@@ -6,13 +6,13 @@ public class DmvSimulator {
 
         System.out.println("Welcome to the DMV!");
         
-        System.out.println("Enter a number from 1 to 100");
+        System.out.println("Enter a number from 1 to 200");
         int dmvNumber = in.nextInt();
         int actualNumber = dmvNumber + 1;
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 200; i++) {
             System.out.println("Now serving number: " + actualNumber);
-            if (actualNumber > 99) {
+            if (actualNumber > 199) {
                 actualNumber = 1;
             } else {
                 actualNumber ++;
