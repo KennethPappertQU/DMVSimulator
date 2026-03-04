@@ -11,7 +11,7 @@ public class DmvSimulator {
         int actualNumber = dmvNumber + 1;
 
         for (int i = 0; i < 200; i++) {
-            System.out.println("Now serving number: " + actualNumber);
+            System.out.println("Now serving number: " + actualNumber);:
             if (actualNumber > 199) {
                 actualNumber = 1;
             } else {
